@@ -45,7 +45,6 @@ void        nvlink_memWr64(volatile void *, NvU64);
 
 // String management functions
 char *      nvlink_strcpy(char *, const char *);
-char *      nvlink_strncpy(char *dest, const char *src, size_t n);
 NvLength    nvlink_strlen(const char *);
 int         nvlink_strcmp(const char *, const char *);
 int         nvlink_snprintf(char *, NvLength, const char *, ...);
